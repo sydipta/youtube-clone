@@ -1,0 +1,96 @@
+.vid-grid{
+    display: grid;
+    column-gap: 4px;
+    row-gap: 25px;
+    padding-left: 10px;
+}
+
+@media(max-width: 750px){
+    .vid-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .duration{
+    border-radius: 3px;
+    font-size: 12px;
+    }
+}
+@media (min-width: 751px) and (max-width:999px){
+    .vid-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .duration{
+    border-radius: 3px;
+    font-size: 11px;
+    }
+}
+@media(min-width: 1000px){
+    .vid-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .duration{
+    border-radius: 3px;
+    font-size: 12px;
+    }
+
+}
+.vid-preview{
+    border-radius: 10px;
+    transition: background-color 0.25s ease;
+}
+.vid-preview:hover{
+    cursor: pointer;
+    background-color: rgb(146, 143, 143);
+}
+.thumb{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 50px 1fr 5px;
+    column-gap: 8px;
+}
+.channel-pfp{
+    width:70%;
+    border-radius: 20px;
+    margin-left:10px;
+}
+.vid-title{
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.vid-author, .release-info{
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    margin-bottom: 4px;
+    line-height: 18px;
+    
+}
+.vertical-dot{
+    display: inline-block;
+    margin-left:-10px;
+}
+.vertical-dot:hover{
+    cursor: pointer;
+}
+
+.thumbnail-section{
+    position: relative;
+    padding: 5px;
+}
+.duration{
+    position: absolute;
+    bottom: 8%;
+    right:4%;
+    padding: 0.3em 0.5em;
+    background-color: rgb(18, 18, 18);
+    background: rgba(0,0,0,0.85);
+    color: white;
+    font-size: clamp(10px, 1.5vw, 12px);
+    font-weight: 500;
+    border-radius: 4px;
+}

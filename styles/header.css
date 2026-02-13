@@ -1,0 +1,163 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.hamburger-menue {
+    height: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube-logo {
+    height: 60px;
+}
+
+.mid-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left: 25px;
+    margin-right: 35px;
+}
+
+.search-bar::placeholder {
+    padding-left: 10px;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+.search-bar {
+    flex: 1;
+    height: 32px;
+    width: 0;
+    max-width: 530px;
+    font-family: Roboto, Arial;
+    font-size: 17px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.search-button, .mic, .ricon-container{
+    position: relative;
+}
+
+.search-button {
+    width: 40px;
+    height: 36px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(180, 180, 180);
+    border-left: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.search-bar:focus{
+    outline: none;
+    border: 1px solid rgb(180, 180, 180);
+}
+.tooltip{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+
+    background-color: rgb(138, 138, 138);
+    color: white;
+    padding: 6px 4px;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    border-radius: 2px;
+    transition: opacity 0.15s ease;
+    opacity: 0;
+
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.mic:hover .tooltip,
+.ricon-container:hover .tooltip{
+    opacity: 1;
+}
+.ricon-container:hover{
+    cursor: pointer;
+}
+.sbutimg {
+    height: 28px;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.mic {
+    border: none;
+    border-radius: 19px;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+
+    position: relative;
+}
+.micimg {
+    margin-top: 4px;
+    height: 18px;
+}
+
+.right-section {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.create {
+    height: 25px;
+    ;
+}
+
+.grid {
+    height: 19px;
+    ;
+}
+
+.notification {
+    margin-top: 2px;
+    height: 23px;
+    ;
+}
+
+.user-pic {
+    margin-right: 32px;
+    margin-top: 2px;
+    height: 36px;
+    border-radius:50%;
+}
+.not-count{
+    position: absolute;
+    top:0px;
+    right: -3px;
+    background-color: red;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 50%;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+}
