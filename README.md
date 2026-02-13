@@ -9,7 +9,7 @@ The project focuses on recreating the structure and behavior of the YouTube home
 
 ## Live Demo
 
-https://YOUR_USERNAME.github.io/youtube-clone/
+https://sydipta.github.io/youtube-clone/
 
 ---
 
@@ -45,5 +45,30 @@ https://YOUR_USERNAME.github.io/youtube-clone/
 
 ---
 
-## Folder Structure
+## Purpose
 
+This project was built as a layout and responsiveness exercise.  
+Main focus areas were:
+
+- Grid vs Flexbox usage
+- Fixed layout offsets
+- Absolute positioning inside containers
+- Responsive sizing
+- Component-based CSS organization
+
+---
+
+## Possible Improvements
+
+- Sidebar collapse toggle
+- Dark theme
+- JavaScript-based video data rendering
+- Search interaction
+- Hover preview effects
+
+---
+
+## Note
+
+This is a UI practice project only.  
+No affiliation with YouTube.
