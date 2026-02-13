@@ -9,7 +9,7 @@ The project focuses on recreating the structure and behavior of the YouTube home
 
 ## Live Demo
 
-https://sydipta.github.io/youtube-clone/
+[https://sydipta.github.io/youtube-clone/](https://sydipta.github.io/youtube-clone/)
 
 ---
 
